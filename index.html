@@ -21,21 +21,60 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
         
 </head>
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'tr',
+            includedLanguages: 'tr,en,es,fr,de,it,ru,ar,pt,zh-CN',
+            autoDisplay: false
+        }, 'google_translate_element');
+    }
+</script>
+
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <body>
 
 <header class="site-header">
     <nav class="navbar">
-        <div class="logo">Sky İstanbul Drone</div>
+        <div class="logo">
+                <span class="logo-drone">
+                    <span></span>
+            </span>
+            <span>Sky İstanbul Drone</span>
+        </div>
 
         <ul class="nav-links">
             <li><a href="#home">Ana Sayfa</a></li>
             <li><a href="#services">Hizmetler</a></li>
             <li><a href="#gallery">Galeri</a></li>
+            <li><a href="#map">Hizmet Bölgesi</a></li>
             <li><a href="#contact">İletişim</a></li>
         </ul>
 
         <a href="#packages" class="cta-btn">Paketleri İncele</a>
+        <div class="language-dropdown">
+    <button class="language-btn" id="languageBtn">
+        <i class="fa-solid fa-globe"></i>
+        <span>Language</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </button>
+
+    <div class="language-menu" id="languageMenu">
+        <button data-lang="tr">🇹🇷 Türkçe</button>
+        <button data-lang="en">🇬🇧 English</button>
+        <button data-lang="es">🇪🇸 Español</button>
+        <button data-lang="fr">🇫🇷 Français</button>
+        <button data-lang="de">🇩🇪 Deutsch</button>
+        <button data-lang="it">🇮🇹 Italiano</button>
+        <button data-lang="ru">🇷🇺 Русский</button>
+        <button data-lang="ar">🇸🇦 العربية</button>
+        <button data-lang="pt">🇵🇹 Português</button>
+        <button data-lang="zh-CN">🇨🇳 中文</button>
+    </div>
+</div>
+
+<div id="google_translate_element"></div>
     </nav>
 </header>
 
@@ -301,102 +340,145 @@
         </a>
     </div>
 
-</div>
-
-
-</div>
-        
-
-</div>
-    </div>
-
-</section>
-
-
-</section>
-
+        </div>
+    </section>
 </main>
-<section class="contact-premium" id="contact">
+<section class="premium-map" id="map">
+    <div class="map-wrapper">
 
-    <div class="contact-overlay"></div>
+        <div class="map-info">
+            <span class="map-tag">KONUM & HİZMET BÖLGESİ</span>
 
-    <div class="contact-container">
-
-        <div class="contact-header">
-
-            <span class="contact-tag">İLETİŞİM</span>
-
-            <h2>
-                Bizimle<br>
-                İletişime Geçin
-            </h2>
+            <h2>İstanbul’un Her Noktasında Drone Çekimi</h2>
 
             <p>
-                Drone çekimleri ve özel projeleriniz hakkında
-                bizimle iletişime geçebilirsiniz.
+                Fatih merkezli olarak İstanbul’un birçok bölgesinde otel, restoran,
+                gayrimenkul, turizm ve kurumsal projeler için profesyonel drone çekimi sunuyoruz.
             </p>
 
+            <div class="districts-grid">
+                <span>Fatih</span>
+                <span>Beşiktaş</span>
+                <span>Şişli</span>
+                <span>Beyoğlu</span>
+                <span>Kadıköy</span>
+                <span>Üsküdar</span>
+                <span>Bakırköy</span>
+                <span>Başakşehir</span>
+            </div>  
         </div>
 
-        <div class="contact-grid">
-
-            <div class="contact-card">
-
-                <div class="contact-icon">
-                    <i class="fa-solid fa-location-dot"></i>
-                </div>
-
-                <h3>Ofis Konumu</h3>
-
-                <p>
-                    Fatih, İstanbul<br>
-                    Türkiye
-                </p>
-
-            </div>
-
-            <div class="contact-card">
-
-                <div class="contact-icon">
-                    <i class="fa-solid fa-envelope"></i>
-                </div>
-
-                <h3>E-posta</h3>
-
-                <a href="mailto:droneskyistanbul@gmail.com">
-                    droneskyistanbul@gmail.com
-                </a>
-
-            </div>
-
-            <div class="contact-card">
-
-                <div class="contact-icon">
-                    <i class="fa-solid fa-clock"></i>
-                </div>
-
-                <h3>Çalışma Saatleri</h3>
-
-                <p>
-
-                    Pazartesi - Cumartesi
-
-                    <br><br>
-
-                    <strong>09:00 - 20:00</strong>
-
-                </p>
-
-            </div>
-
+        <div class="map-box">
+            <iframe
+                src="https://www.google.com/maps?q=Fatih%20Istanbul%20Turkey&output=embed"
+                loading="lazy"
+                allowfullscreen="">
+            </iframe>
         </div>
 
     </div>
-
 </section>
-<footer>
+<section class="contact-premium" id="contact">
+    <footer class="footer">
+
+        <div class="footer-top-image"></div>
+
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <div class="logo-drone">
+                        <span></span>
+                    </div>
+
+                    <h3>Sky İstanbul Drone</h3>
+                </div>
+
+                <p>
+                    İstanbul'un otelleri, restoranları, gayrimenkulleri,
+                    turizm işletmeleri ve kurumsal firmaları için
+                    profesyonel drone çekim hizmetleri sunuyoruz.
+                </p>
+
+                <div class="footer-contact">
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>İstanbul, Türkiye</span>
+                    </div>
+
+                    <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a class="footer-email" href="mailto:droneskyistanbul@gmail.com">
+                    droneskyistanbul@gmail.com
+                    </a>
+                    
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>+90 536 486 92 41</span>
+                    </div>
+
+                    <div>
+                        <i class="fa-regular fa-clock"></i>
+                        <span>
+                            <strong>Çalışma Saatleri</strong><br>
+                            Pazartesi - Cumartesi<br>
+                            08:00 - 19:00
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Hızlı Menü</h4>
+
+                <a href="#home">Ana Sayfa</a>
+                <a href="#services">Hizmetler</a>
+                <a href="#packages">Paketler</a>
+                <a href="#map">Hizmet Bölgeleri</a>
+                <a href="#contact">İletişim</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Hizmetlerimiz</h4>
+
+                <a href="#">Drone Çekimi</a>
+                <a href="#">Gayrimenkul</a>
+                <a href="#">Oteller</a>
+                <a href="#">Restoranlar</a>
+                <a href="#">Turizm</a>
+                <a href="#">Kurumsal Projeler</a>
+            </div>
+
+            <div class="footer-links social-links">
+                <h4>Bizi Takip Edin</h4>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-tiktok"></i>
+                    TikTok
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                    YouTube
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Sky İstanbul Drone <span>•</span> Tüm Hakları Saklıdır.
+        </div>
 
     </footer>
+</section>
+
 <a href="https://wa.me/905364869241?text=Merhaba%20Sky%20%C4%B0stanbul%20Drone,%20bilgi%20almak%20istiyorum."
    class="floating-whatsapp"
    target="_blank">

@@ -81,3 +81,37 @@ if (particlesContainer) {
         particlesContainer.appendChild(particle);
     }
 }
+const languageBtn = document.getElementById("languageBtn");
+const languageMenu = document.getElementById("languageMenu");
+
+if (languageBtn && languageMenu) {
+    languageBtn.addEventListener("click", () => {
+        languageMenu.classList.toggle("active");
+    });
+
+    document.addEventListener("click", (e) => {
+        if (!e.target.closest(".language-dropdown")) {
+            languageMenu.classList.remove("active");
+        }
+    });
+}
+
+function changeGoogleTranslateLanguage(lang) {
+    const select = document.querySelector(".goog-te-combo");
+
+    if (!select) {
+        setTimeout(() => changeGoogleTranslateLanguage(lang), 500);
+        return;
+    }
+
+    select.value = lang;
+    select.dispatchEvent(new Event("change"));
+}
+
+document.querySelectorAll(".language-menu button").forEach((button) => {
+    button.addEventListener("click", () => {
+        const lang = button.getAttribute("data-lang");
+        changeGoogleTranslateLanguage(lang);
+        languageMenu.classList.remove("active");
+    });
+});
