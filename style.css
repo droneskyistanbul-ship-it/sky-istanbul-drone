@@ -1462,7 +1462,8 @@ transform:translateY(-5px);
     }
 
     .districts-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
     }
 
     .map-whatsapp {
@@ -3302,59 +3303,6 @@ transform:translateY(-5px);
 
     html body #packages .package-trust i {
         font-size: 14px !important;
-    }
-}
-/* =========================================================
-   SERVICE AREAS - MOBILE COMPACT
-   SOLO CELULAR
-========================================================= */
-
-@media only screen and (max-width: 768px) {
-
-    /* Contenedor de los distritos */
-    .districts-grid,
-    .areas-grid,
-    .locations-grid {
-        display: grid !important;
-        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-        gap: 10px !important;
-
-        width: 100% !important;
-        padding: 0 16px !important;
-        margin: 20px auto 28px !important;
-    }
-
-    /* Cada distrito */
-    .district-item,
-    .area-item,
-    .location-item {
-        min-width: 0 !important;
-        width: 100% !important;
-        height: 58px !important;
-        min-height: 58px !important;
-
-        margin: 0 !important;
-        padding: 8px 10px !important;
-
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-
-        gap: 7px !important;
-
-        border-radius: 15px !important;
-
-        font-size: 13px !important;
-        line-height: 1.2 !important;
-
-        text-align: center !important;
-    }
-
-    .district-item i,
-    .area-item i,
-    .location-item i {
-        font-size: 12px !important;
-        flex-shrink: 0 !important;
     }
 }
 /* ==========================================================
