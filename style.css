@@ -907,6 +907,7 @@ transform:translateY(-5px);
     background:linear-gradient(180deg,#ffffff,#d4af37);
 
     -webkit-background-clip:text;
+    background-clip:text;
 
     -webkit-text-fill-color:transparent;
 
@@ -1083,6 +1084,7 @@ transform:translateY(-5px);
     background:linear-gradient(180deg,#ffffff,#d4af37);
 
     -webkit-background-clip:text;
+    background-clip:text;
 
     -webkit-text-fill-color:transparent;
 
@@ -1839,4 +1841,383 @@ transform:translateY(-5px);
 .premium-map {
     padding-top: 40px !important;
     margin-top: 0 !important;
+}
+
+/* ==================================================
+   NUEVO PAQUETE PREMIUM - VERSION PC
+================================================== */
+
+.packages{
+    padding:70px 30px !important;
+    background:
+        radial-gradient(circle at 75% 20%, rgba(212,175,55,.10), transparent 30%),
+        #05070d;
+}
+
+.package-premium{
+    width:100%;
+    max-width:1500px;
+    min-height:720px;
+    margin:0 auto;
+
+    display:grid;
+    grid-template-columns:54% 46%;
+
+    position:relative;
+    overflow:hidden;
+
+    background:#07101c;
+
+    border:1px solid rgba(212,175,55,.40);
+    border-radius:34px;
+
+    box-shadow:
+        0 35px 80px rgba(0,0,0,.55),
+        0 0 40px rgba(212,175,55,.06);
+}
+
+
+/* ---------- IZQUIERDA ---------- */
+
+.package-premium-content{
+    position:relative;
+    z-index:3;
+
+    padding:55px 52px 48px;
+
+    background:
+        radial-gradient(circle at 10% 5%, rgba(212,175,55,.08), transparent 25%),
+        linear-gradient(
+            90deg,
+            #07101c 0%,
+            #07101c 80%,
+            rgba(7,16,28,.92) 100%
+        );
+}
+
+
+.package-premium-label{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+
+    padding:9px 17px;
+    margin-bottom:25px;
+
+    border-radius:999px;
+
+    background:rgba(212,175,55,.10);
+    border:1px solid rgba(212,175,55,.55);
+
+    color:#d4af37;
+
+    font-size:12px;
+    font-weight:800;
+    letter-spacing:.6px;
+}
+
+
+.package-premium-content h2{
+    margin:0 0 18px;
+
+    font-size:50px;
+    line-height:1.08;
+    font-weight:800;
+
+    color:#ffffff;
+}
+
+
+.package-premium-content h2 span{
+    color:#d4af37;
+}
+
+
+.package-premium-description{
+    max-width:650px;
+
+    margin-bottom:32px;
+
+    color:#d8d8d8;
+
+    font-size:17px;
+    line-height:1.7;
+}
+
+
+/* ---------- SERVICIOS ---------- */
+
+.package-premium-features{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+    column-gap:30px;
+    row-gap:16px;
+
+    margin-bottom:34px;
+}
+
+
+.package-premium-features > div{
+    display:flex;
+    align-items:center;
+    gap:13px;
+
+    min-height:54px;
+
+    color:#f1f1f1;
+
+    font-size:14px;
+    line-height:1.45;
+}
+
+
+.package-premium-features i{
+    width:44px;
+    min-width:44px;
+    height:44px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    color:#d4af37;
+
+    background:linear-gradient(
+        180deg,
+        rgba(255,255,255,.08),
+        rgba(255,255,255,.025)
+    );
+
+    border:1px solid rgba(212,175,55,.30);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+    font-size:16px;
+}
+
+
+/* ---------- PRECIO ---------- */
+
+.package-premium-price{
+    display:grid;
+    grid-template-columns:210px 1fr;
+
+    align-items:center;
+
+    margin:5px 0 20px;
+
+    overflow:hidden;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.025);
+    border:1px solid rgba(255,255,255,.13);
+}
+
+
+.package-price-main{
+    padding:20px 25px;
+
+    border-right:1px solid rgba(255,255,255,.13);
+}
+
+
+.package-price-main small{
+    display:block;
+
+    margin-bottom:6px;
+
+    color:#cfcfcf;
+
+    font-size:11px;
+    font-weight:600;
+    letter-spacing:.7px;
+}
+
+
+.package-price-main strong{
+    display:block;
+
+    color:#ffffff;
+
+    font-size:35px;
+    line-height:1;
+
+    font-weight:800;
+}
+
+
+.package-price-note{
+    padding:17px 24px;
+}
+
+
+.package-price-note strong{
+    color:#d4af37;
+    font-size:14px;
+}
+
+
+.package-price-note p{
+    margin-top:5px;
+
+    color:#cfcfcf;
+
+    font-size:12px;
+    line-height:1.5;
+}
+
+
+/* ---------- WHATSAPP ---------- */
+
+.package-premium-whatsapp{
+    width:100%;
+    min-height:62px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:13px;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    background:linear-gradient(90deg,#25D366,#1fc85e);
+
+    color:#ffffff;
+
+    font-size:16px;
+    font-weight:800;
+
+    box-shadow:0 15px 35px rgba(37,211,102,.25);
+
+    transition:.3s ease;
+}
+
+
+.package-premium-whatsapp .fa-whatsapp{
+    font-size:25px;
+}
+
+
+.package-premium-whatsapp .fa-arrow-right{
+    margin-left:5px;
+    font-size:12px;
+}
+
+
+.package-premium-whatsapp:hover{
+    transform:translateY(-3px);
+
+    box-shadow:0 20px 45px rgba(37,211,102,.38);
+}
+
+
+/* ---------- DERECHA / IMAGEN ---------- */
+
+.package-premium-image{
+    position:relative;
+
+    min-width:0;
+
+    overflow:hidden;
+}
+
+
+.package-premium-image img{
+    position:absolute;
+    inset:0;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+    object-position:center;
+
+    display:block;
+}
+
+
+/* mezcla suave entre negro e imagen */
+
+.package-image-overlay{
+    position:absolute;
+    inset:0;
+
+    z-index:1;
+
+    pointer-events:none;
+
+    background:
+        linear-gradient(
+            90deg,
+            #07101c 0%,
+            rgba(7,16,28,.72) 7%,
+            rgba(7,16,28,.28) 20%,
+            transparent 42%
+        ),
+        linear-gradient(
+            0deg,
+            rgba(5,7,13,.78) 0%,
+            rgba(5,7,13,.10) 35%,
+            transparent 60%
+        );
+}
+
+
+/* ---------- BARRA INFERIOR FOTO ---------- */
+
+.package-trust{
+    position:absolute;
+
+    z-index:2;
+
+    left:28px;
+    right:28px;
+    bottom:28px;
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+
+    padding:17px 12px;
+
+    border-radius:20px;
+
+    background:rgba(7,16,28,.86);
+
+    border:1px solid rgba(255,255,255,.13);
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+}
+
+
+.package-trust > div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    gap:10px;
+
+    color:#ffffff;
+
+    font-size:11px;
+    line-height:1.35;
+}
+
+
+.package-trust > div:not(:last-child){
+    border-right:1px solid rgba(255,255,255,.15);
+}
+
+
+.package-trust i{
+    color:#d4af37;
+    font-size:21px;
 }
