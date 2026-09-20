@@ -2545,3 +2545,762 @@ transform:translateY(-5px);
 
     font-size:20px !important;
 }
+/* ==================================================
+   /* =========================================================
+   PACKAGE MOBILE - VERSION LIMPIA
+========================================================= */
+
+@media (max-width: 768px) {
+
+    #packages {
+        padding: 30px 16px !important;
+    }
+
+    #packages .package-premium {
+        display: block !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+        min-height: 0 !important;
+
+        margin: 0 !important;
+
+        overflow: hidden !important;
+
+        border-radius: 24px !important;
+    }
+
+
+    /* ============================
+       PARTE DE TEXTO
+    ============================ */
+
+    #packages .package-premium-content {
+        display: block !important;
+
+        position: relative !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+
+        padding: 28px 20px 24px !important;
+
+        background: #07101c !important;
+    }
+
+
+    #packages .package-premium-label {
+        display: inline-flex !important;
+
+        width: auto !important;
+
+        margin: 0 0 18px !important;
+
+        padding: 8px 13px !important;
+
+        font-size: 9px !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    #packages .package-premium-content h2 {
+        display: block !important;
+
+        width: 100% !important;
+
+        margin: 0 0 16px !important;
+
+        font-size: 32px !important;
+        line-height: 1.12 !important;
+
+        white-space: normal !important;
+        word-break: normal !important;
+    }
+
+
+    #packages .package-premium-content h2 span {
+        display: inline !important;
+    }
+
+
+    #packages .package-premium-description {
+        display: block !important;
+
+        width: 100% !important;
+        max-width: none !important;
+
+        margin: 0 0 24px !important;
+
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+
+        white-space: normal !important;
+        word-break: normal !important;
+    }
+
+
+    /* ============================
+       SERVICIOS
+    ============================ */
+
+    #packages .package-premium-features {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+
+        width: 100% !important;
+
+        gap: 12px !important;
+
+        margin: 0 0 24px !important;
+    }
+
+
+    #packages .package-premium-features > div {
+        display: flex !important;
+        align-items: center !important;
+
+        width: 100% !important;
+
+        min-height: 44px !important;
+
+        gap: 12px !important;
+
+        font-size: 13px !important;
+        line-height: 1.4 !important;
+
+        white-space: normal !important;
+    }
+
+
+    #packages .package-premium-features i {
+        flex: 0 0 38px !important;
+
+        width: 38px !important;
+        min-width: 38px !important;
+        height: 38px !important;
+
+        font-size: 14px !important;
+    }
+
+
+    /* ============================
+       PRECIO
+    ============================ */
+
+    #packages .package-premium-price {
+        display: block !important;
+
+        width: 100% !important;
+
+        margin: 0 0 16px !important;
+
+        border-radius: 16px !important;
+    }
+
+
+    #packages .package-price-main {
+        width: 100% !important;
+
+        padding: 16px 18px !important;
+
+        border-right: 0 !important;
+        border-bottom: 1px solid rgba(255,255,255,.12) !important;
+    }
+
+
+    #packages .package-price-main strong {
+        font-size: 30px !important;
+    }
+
+
+    #packages .package-price-note {
+        width: 100% !important;
+        padding: 14px 18px !important;
+    }
+
+
+    #packages .package-price-note p {
+        font-size: 11px !important;
+        line-height: 1.5 !important;
+    }
+
+
+    /* ============================
+       BOTÓN
+    ============================ */
+
+    #packages .package-premium-whatsapp {
+        display: flex !important;
+
+        width: 100% !important;
+
+        min-height: 54px !important;
+        height: auto !important;
+
+        padding: 13px 15px !important;
+
+        font-size: 13px !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* ============================
+       IMAGEN
+    ============================ */
+
+    #packages .package-premium-image {
+        display: block !important;
+
+        position: relative !important;
+
+        width: 100% !important;
+
+        height: 260px !important;
+        min-height: 260px !important;
+
+        margin: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+
+    #packages .package-premium-image img {
+        display: block !important;
+
+        position: absolute !important;
+        inset: 0 !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: 100% !important;
+
+        object-fit: cover !important;
+        object-position: center !important;
+
+        transform: none !important;
+    }
+
+
+    #packages .package-image-overlay {
+        position: absolute !important;
+        inset: 0 !important;
+
+        background:
+            linear-gradient(
+                0deg,
+                rgba(5,7,13,.8),
+                transparent 55%
+            ) !important;
+    }
+
+
+    /* ============================
+       3 BENEFICIOS SOBRE FOTO
+    ============================ */
+
+    #packages .package-trust {
+        position: absolute !important;
+
+        left: 10px !important;
+        right: 10px !important;
+        bottom: 10px !important;
+
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+
+        width: auto !important;
+
+        padding: 10px 4px !important;
+
+        border-radius: 14px !important;
+    }
+
+
+    #packages .package-trust > div {
+        display: flex !important;
+        flex-direction: column !important;
+
+        align-items: center !important;
+        justify-content: center !important;
+
+        gap: 4px !important;
+
+        font-size: 8px !important;
+        line-height: 1.2 !important;
+
+        text-align: center !important;
+    }
+
+
+    #packages .package-trust i {
+        font-size: 15px !important;
+    }
+}
+/* ==========================================================
+   SKY ISTANBUL - PACKAGE MOBILE OVERRIDE DEFINITIVO
+   NO AFECTA PC
+========================================================== */
+
+@media only screen and (max-width: 768px) {
+
+    /* SECCIÓN */
+    html body #packages {
+        box-sizing: border-box !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 30px 14px !important;
+        overflow: visible !important;
+    }
+
+    /* TARJETA COMPLETA */
+    html body #packages .package-premium {
+        box-sizing: border-box !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        position: relative !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+        min-height: 0 !important;
+
+        margin: 0 auto !important;
+        padding: 0 !important;
+
+        overflow: hidden !important;
+
+        border-radius: 22px !important;
+    }
+
+
+    /* =====================================
+       CONTENIDO SUPERIOR
+    ===================================== */
+
+    html body #packages .package-premium-content {
+        box-sizing: border-box !important;
+
+        position: static !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+        min-height: 0 !important;
+
+        flex: none !important;
+
+        margin: 0 !important;
+        padding: 25px 18px !important;
+
+        transform: none !important;
+
+        background: #07101c !important;
+    }
+
+
+    /* ETIQUETA */
+
+    html body #packages .package-premium-label {
+        position: static !important;
+
+        display: inline-flex !important;
+        align-self: flex-start !important;
+
+        width: auto !important;
+        max-width: 100% !important;
+
+        margin: 0 0 18px !important;
+        padding: 8px 12px !important;
+
+        font-size: 9px !important;
+        line-height: 1.2 !important;
+
+        white-space: normal !important;
+
+        transform: none !important;
+    }
+
+
+    /* TÍTULO */
+
+    html body #packages .package-premium-content h2 {
+        position: static !important;
+
+        display: block !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 0 15px !important;
+        padding: 0 !important;
+
+        font-size: 30px !important;
+        line-height: 1.12 !important;
+
+        text-align: left !important;
+
+        white-space: normal !important;
+        word-break: normal !important;
+        overflow-wrap: normal !important;
+
+        transform: none !important;
+    }
+
+    html body #packages .package-premium-content h2 span {
+        display: inline !important;
+        white-space: normal !important;
+    }
+
+
+    /* DESCRIPCIÓN */
+
+    html body #packages .package-premium-description {
+        position: static !important;
+
+        display: block !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 0 22px !important;
+        padding: 0 !important;
+
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+
+        text-align: left !important;
+
+        white-space: normal !important;
+        word-break: normal !important;
+        overflow-wrap: normal !important;
+
+        transform: none !important;
+    }
+
+
+    /* =====================================
+       CARACTERÍSTICAS
+    ===================================== */
+
+    html body #packages .package-premium-features {
+        position: static !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 0 22px !important;
+        padding: 0 !important;
+
+        gap: 10px !important;
+
+        transform: none !important;
+    }
+
+    html body #packages .package-premium-features > div {
+        box-sizing: border-box !important;
+
+        position: static !important;
+
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+        min-height: 42px !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        gap: 11px !important;
+
+        font-size: 12px !important;
+        line-height: 1.35 !important;
+
+        text-align: left !important;
+
+        transform: none !important;
+    }
+
+    html body #packages .package-premium-features > div span {
+        display: block !important;
+
+        width: auto !important;
+        max-width: calc(100% - 50px) !important;
+
+        white-space: normal !important;
+        word-break: normal !important;
+        overflow-wrap: break-word !important;
+    }
+
+    html body #packages .package-premium-features i {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        flex: 0 0 38px !important;
+
+        width: 38px !important;
+        min-width: 38px !important;
+        max-width: 38px !important;
+
+        height: 38px !important;
+        min-height: 38px !important;
+
+        margin: 0 !important;
+
+        transform: none !important;
+    }
+
+
+    /* =====================================
+       PRECIO
+    ===================================== */
+
+    html body #packages .package-premium-price {
+        box-sizing: border-box !important;
+
+        position: static !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+
+        margin: 0 0 15px !important;
+        padding: 0 !important;
+
+        transform: none !important;
+
+        overflow: hidden !important;
+    }
+
+    html body #packages .package-price-main {
+        box-sizing: border-box !important;
+
+        width: 100% !important;
+
+        margin: 0 !important;
+        padding: 15px 17px !important;
+
+        border-right: none !important;
+        border-bottom: 1px solid rgba(255,255,255,.12) !important;
+    }
+
+    html body #packages .package-price-main strong {
+        display: block !important;
+        font-size: 29px !important;
+    }
+
+    html body #packages .package-price-note {
+        box-sizing: border-box !important;
+
+        width: 100% !important;
+
+        margin: 0 !important;
+        padding: 14px 17px !important;
+    }
+
+    html body #packages .package-price-note p {
+        width: 100% !important;
+        margin: 4px 0 0 !important;
+
+        font-size: 10px !important;
+        line-height: 1.5 !important;
+
+        white-space: normal !important;
+    }
+
+
+    /* =====================================
+       BOTÓN WHATSAPP
+    ===================================== */
+
+    html body #packages .package-premium-whatsapp {
+        box-sizing: border-box !important;
+
+        position: static !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+        min-height: 52px !important;
+
+        margin: 0 !important;
+        padding: 13px 12px !important;
+
+        gap: 8px !important;
+
+        font-size: 12px !important;
+        line-height: 1.2 !important;
+
+        transform: none !important;
+    }
+
+
+    /* =====================================
+       IMAGEN - SIEMPRE DEBAJO
+    ===================================== */
+
+    html body #packages .package-premium-image {
+        box-sizing: border-box !important;
+
+        position: relative !important;
+
+        display: block !important;
+
+        flex: none !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: 250px !important;
+        min-height: 250px !important;
+        max-height: 250px !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        overflow: hidden !important;
+
+        transform: none !important;
+    }
+
+    html body #packages .package-premium-image > img {
+        position: absolute !important;
+
+        top: 0 !important;
+        right: auto !important;
+        bottom: auto !important;
+        left: 0 !important;
+
+        display: block !important;
+
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+
+        height: 100% !important;
+        min-height: 100% !important;
+        max-height: 100% !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        object-fit: cover !important;
+        object-position: center center !important;
+
+        transform: none !important;
+    }
+
+
+    /* OSCURECIDO DE FOTO */
+
+    html body #packages .package-image-overlay {
+        position: absolute !important;
+        inset: 0 !important;
+
+        width: 100% !important;
+        height: 100% !important;
+
+        transform: none !important;
+
+        background:
+            linear-gradient(
+                to top,
+                rgba(5, 7, 13, .85) 0%,
+                rgba(5, 7, 13, .15) 55%,
+                transparent 100%
+            ) !important;
+    }
+
+
+    /* =====================================
+       3 SELLOS SOBRE LA FOTO
+    ===================================== */
+
+    html body #packages .package-trust {
+        box-sizing: border-box !important;
+
+        position: absolute !important;
+
+        top: auto !important;
+        left: 10px !important;
+        right: 10px !important;
+        bottom: 10px !important;
+
+        display: grid !important;
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+
+        width: auto !important;
+        max-width: none !important;
+        height: auto !important;
+
+        margin: 0 !important;
+        padding: 9px 4px !important;
+
+        gap: 2px !important;
+
+        transform: none !important;
+    }
+
+    html body #packages .package-trust > div {
+        position: static !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        width: 100% !important;
+        min-width: 0 !important;
+        height: auto !important;
+
+        margin: 0 !important;
+        padding: 0 2px !important;
+
+        gap: 3px !important;
+
+        font-size: 7px !important;
+        line-height: 1.15 !important;
+
+        text-align: center !important;
+
+        transform: none !important;
+    }
+
+    html body #packages .package-trust > div span {
+        white-space: normal !important;
+    }
+
+    html body #packages .package-trust i {
+        font-size: 14px !important;
+    }
+}
